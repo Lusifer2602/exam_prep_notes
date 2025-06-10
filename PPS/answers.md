@@ -92,7 +92,7 @@ int main() {
     return 0;
 }
 
-Q3. Define algorithm and Pseudocode. Write algorithm and pseudocode for finding factorial of a number.
+### Q3. Define algorithm and Pseudocode. Write algorithm and pseudocode for finding factorial of a number.
 An algorithm is a step-by-step procedure or set of rules to solve a problem or complete a task, expressed in a logical sequence. It acts as a blueprint for programming, ensuring clarity before coding. Pseudocode, on the other hand, is a high-level, human-readable description of an algorithm using a mix of natural language and programming constructs, without strict syntax rules. It helps plan the logic and is later translated into actual code.
 Algorithm for Factorial of a Number:
 Start.
@@ -125,7 +125,7 @@ Stop.
 END
 
 
-Q4. Explain various branching statements in C with examples. Write a program to generate prime numbers between 1 and n (given by user).
+### Q4. Explain various branching statements in C with examples. Write a program to generate prime numbers between 1 and n (given by user).
 Branching statements in C control the flow of execution based on conditions. The primary ones are if, if-else, else-if ladder, and switch. The if statement executes a block if a condition is true. The if-else adds an alternative block for a false condition. The else-if ladder handles multiple conditions sequentially, and switch selects a case based on a value. These statements are crucial for decision-making.
 Example of Branching:
 if (a > b) printf("a is greater"); - Simple if.
@@ -155,7 +155,7 @@ int main() {
 }
 
 
-Q5. Define an array. How to initialize one-dimensional array? Explain with suitable examples. Write a C program to sort the given array elements in Ascending order.
+### Q5. Define an array. How to initialize one-dimensional array? Explain with suitable examples. Write a C program to sort the given array elements in Ascending order.
 An array is a collection of elements of the same data type stored in contiguous memory locations, accessed using an index. It allows efficient data handling for multiple values under a single name. A one-dimensional array is a linear list, declared with a fixed size, e.g., int arr[5].
 Initialization of One-Dimensional Array:
 Direct initialization: int arr[5] = {1, 2, 3, 4, 5};.
@@ -185,8 +185,8 @@ int main() {
 }
 
 
-Q6. What are the features of pointers? Write a C program to print address of a variable.
-Pointers are variables that store memory addresses of other variables, enabling direct memory manipulation. Key features include: they allow dynamic memory allocation, provide efficiency in passing large data structures, enable array handling, and support pointer arithmetic for traversing memory. They require careful use to avoid issues like dangling pointers.
+### Q6. What are the features of pointers? Write a C program to print address of a variable.
+- Pointers are variables that store memory addresses of other variables, enabling direct memory manipulation. Key features include: they allow dynamic memory allocation, provide efficiency in passing large data structures, enable array handling, and support pointer arithmetic for traversing memory. They require careful use to avoid issues like dangling pointers.
 Program to Print Address of a Variable:
 c
 #include <stdio.h>
@@ -202,7 +202,7 @@ int main() {
 This program declares an integer x, a pointer ptr to its address, and prints both the value and address using %p with a type cast to void*. It showcases pointer dereferencing and address access.
 
 
-Q7. Define Structure and write the general syntax for declaring and accessing members. How to copy and compare structure variables? Illustrate with example.
+### Q7. Define Structure and write the general syntax for declaring and accessing members. How to copy and compare structure variables? Illustrate with example.
 A structure in C is a user-defined data type that groups different data types under a single name, allowing complex data representation. It’s declared using the struct keyword, and members are accessed with the dot (.) operator for objects or arrow (->) for pointers.
 General Syntax:
 Declaration: struct struct_name { data_type member1; data_type member2; } var;.
