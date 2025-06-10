@@ -1,3 +1,4 @@
+
 ## Section A Answers
 
 ### Q1. (a) Write a short note on type casting.
@@ -90,10 +91,11 @@ int main() {
     a = a - b;  // Step 3: Subtract new b from sum to get new a
     printf("After swapping: a = %d, b = %d\n", a, b);
     return 0;
-}
+} 
+```
 
-Q3. Define algorithm and Pseudocode. Write algorithm and pseudocode for finding factorial of a number.
-An algorithm is a step-by-step procedure or set of rules to solve a problem or complete a task, expressed in a logical sequence. It acts as a blueprint for programming, ensuring clarity before coding. Pseudocode, on the other hand, is a high-level, human-readable description of an algorithm using a mix of natural language and programming constructs, without strict syntax rules. It helps plan the logic and is later translated into actual code.
+### Q3. Define algorithm and Pseudocode. Write algorithm and pseudocode for finding factorial of a number.
+- An algorithm is a step-by-step procedure or set of rules to solve a problem or complete a task, expressed in a logical sequence. It acts as a blueprint for programming, ensuring clarity before coding. Pseudocode, on the other hand, is a high-level, human-readable description of an algorithm using a mix of natural language and programming constructs, without strict syntax rules. It helps plan the logic and is later translated into actual code.
 Algorithm for Factorial of a Number:
 Start.
 
@@ -110,8 +112,10 @@ After the loop, fact contains the factorial of n.
 Display fact.
 
 Stop.
-Pseudocode for Factorial of a Number:
-BEGIN
+
+Pseudocode for Factorial of a Number:
+```
+BEGIN
     INPUT n
     SET fact = 1
     IF n < 0 THEN
@@ -123,19 +127,21 @@ Stop.
     END FOR
     PRINT "Factorial of", n, "is", fact
 END
+```
 
-
-Q4. Explain various branching statements in C with examples. Write a program to generate prime numbers between 1 and n (given by user).
-Branching statements in C control the flow of execution based on conditions. The primary ones are if, if-else, else-if ladder, and switch. The if statement executes a block if a condition is true. The if-else adds an alternative block for a false condition. The else-if ladder handles multiple conditions sequentially, and switch selects a case based on a value. These statements are crucial for decision-making.
+### Q4. Explain various branching statements in C with examples. Write a program to generate prime numbers between 1 and n (given by user).
+- Branching statements in C control the flow of execution based on conditions. The primary ones are if, if-else, else-if ladder, and switch. The if statement executes a block if a condition is true. The if-else adds an alternative block for a false condition. The else-if ladder handles multiple conditions sequentially, and switch selects a case based on a value. These statements are crucial for decision-making.
 Example of Branching:
-if (a > b) printf("a is greater"); - Simple if.
+``` if (a > b) printf("a is greater"); - Simple if. ```
 
-if (a > b) printf("a is greater"); else printf("b is greater"); - If-else.
+``` if (a > b) printf("a is greater"); else printf("b is greater"); - If-else. ```
 
-switch (day) { case 1: printf("Monday"); break; } - Switch.
-Program to Generate Prime Numbers:
-c
-#include <stdio.h>
+``` switch (day) { case 1: printf("Monday"); break; } - Switch.```
+
+Program to Generate Prime Numbers:
+```c
+
+#include <stdio.h>
 int main() {
     int n, i, j, isPrime;
     printf("Enter a number n: ");
@@ -152,20 +158,23 @@ int main() {
         if (isPrime) printf("%d ", i);
     }
     return 0;
-}
+} 
+```
 
 
-Q5. Define an array. How to initialize one-dimensional array? Explain with suitable examples. Write a C program to sort the given array elements in Ascending order.
-An array is a collection of elements of the same data type stored in contiguous memory locations, accessed using an index. It allows efficient data handling for multiple values under a single name. A one-dimensional array is a linear list, declared with a fixed size, e.g., int arr[5].
+### Q5. Define an array. How to initialize one-dimensional array? Explain with suitable examples. Write a C program to sort the given array elements in Ascending order.
+* An array is a collection of elements of the same data type stored in contiguous memory locations, accessed using an index. It allows efficient data handling for multiple values under a single name. A one-dimensional array is a linear list, declared with a fixed size, e.g., int arr[5].
 Initialization of One-Dimensional Array:
 Direct initialization: int arr[5] = {1, 2, 3, 4, 5};.
 
 Partial initialization: int arr[5] = {1, 2}; (remaining elements set to 0).
 
 At runtime: scanf("%d", &arr[i]); to input values.
-Program to Sort Array in Ascending Order:
-c
-#include <stdio.h>
+
+Program to Sort Array in Ascending Order:
+```c
+
+#include <stdio.h>
 int main() {
     int arr[100], n, i, j, temp;
     printf("Enter the size of array: ");
@@ -183,13 +192,14 @@ int main() {
     for (i = 0; i < n; i++) printf("%d ", arr[i]);
     return 0;
 }
+```
 
-
-Q6. What are the features of pointers? Write a C program to print address of a variable.
-Pointers are variables that store memory addresses of other variables, enabling direct memory manipulation. Key features include: they allow dynamic memory allocation, provide efficiency in passing large data structures, enable array handling, and support pointer arithmetic for traversing memory. They require careful use to avoid issues like dangling pointers.
+### Q6. What are the features of pointers? Write a C program to print address of a variable.
+* Pointers are variables that store memory addresses of other variables, enabling direct memory manipulation. Key features include: they allow dynamic memory allocation, provide efficiency in passing large data structures, enable array handling, and support pointer arithmetic for traversing memory. They require careful use to avoid issues like dangling pointers.
 Program to Print Address of a Variable:
 c
-#include <stdio.h>
+
+``` #include <stdio.h>
 int main() {
     int x = 10;
     int *ptr = &x;
@@ -198,23 +208,26 @@ int main() {
     printf("Value via pointer: %d\n", *ptr);
     return 0;
 }
-
+```
 This program declares an integer x, a pointer ptr to its address, and prints both the value and address using %p with a type cast to void*. It showcases pointer dereferencing and address access.
 
 
-Q7. Define Structure and write the general syntax for declaring and accessing members. How to copy and compare structure variables? Illustrate with example.
-A structure in C is a user-defined data type that groups different data types under a single name, allowing complex data representation. It’s declared using the struct keyword, and members are accessed with the dot (.) operator for objects or arrow (->) for pointers.
+### Q7. Define Structure and write the general syntax for declaring and accessing members. How to copy and compare structure variables? Illustrate with example.
+* A structure in C is a user-defined data type that groups different data types under a single name, allowing complex data representation. It’s declared using the struct keyword, and members are accessed with the dot (.) operator for objects or arrow (->) for pointers.
 General Syntax:
 Declaration: struct struct_name { data_type member1; data_type member2; } var;.
 
-Accessing: var.member1 = value;.
+Accessing: `var.member1 = value;`
 
-Example: struct Student { int id; char name[20]; };.
-Copying and Comparing Structure Variables:
+Example: `struct Student { int id; char name[20]; };`
+
+Copying and Comparing Structure Variables:
 Structures can be copied by assignment, copying all members. Comparison requires member-wise comparison since direct == isn’t allowed.
 Example Program:
 c
-#include <stdio.h>
+
+``` 
+#include <stdio.h>
 struct Student {
     int id;
     char name[20];
@@ -230,13 +243,13 @@ int main() {
     printf("s1 and s3 equal: %d\n", equal);
     return 0;
 }
-
+```
 
 ## Part C Answers
 
 ### Q8. Illustrate computer with a neat and clean diagram. Explain their functional units in detail. (15 Marks)
-Diagram image - https://imgs.search.brave.com/jg3xtdAWAtXTWx5TW8LlWQCyMaMLt7tB0vXzLZ2Ybcs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZWRyYXdzb2Z0/LmNvbS9hcnRpY2xl/cy9ibG9jay1kaWFn/cmFtLW9mLWNvbXB1/dGVyL2Jsb2NrLWRp/YWdyYW0tb2YtYS1j/b21wdXRlci5wbmc
-A computer is an electronic device that processes data based on user instructions, and its structure can be illustrated with a neat block diagram. Picture a central **Central Processing Unit (CPU)** connected to **Memory (RAM and ROM)**, **Input Devices** (e.g., keyboard, mouse), **Output Devices** (e.g., monitor, printer), and **Storage Devices** (e.g., hard drives, SSDs), all linked via a **Motherboard**. Arrows indicate the data flow between these components, starting from input, processed by the CPU, stored or displayed as output.
+- Diagram image - https://imgs.search.brave.com/jg3xtdAWAtXTWx5TW8LlWQCyMaMLt7tB0vXzLZ2Ybcs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZWRyYXdzb2Z0/LmNvbS9hcnRpY2xl/cy9ibG9jay1kaWFn/cmFtLW9mLWNvbXB1/dGVyL2Jsb2NrLWRp/YWdyYW0tb2YtYS1j/b21wdXRlci5wbmc 
+* A computer is an electronic device that processes data based on user instructions, and its structure can be illustrated with a neat block diagram. Picture a central **Central Processing Unit (CPU)** connected to **Memory (RAM and ROM)**, **Input Devices** (e.g., keyboard, mouse), **Output Devices** (e.g., monitor, printer), and **Storage Devices** (e.g., hard drives, SSDs), all linked via a **Motherboard**. Arrows indicate the data flow between these components, starting from input, processed by the CPU, stored or displayed as output.
 
 The functional units are the backbone of this system:
 - **Input Unit**: This unit includes peripherals like the keyboard and mouse, which allow users to feed data or commands. The data is converted into a binary format and sent to the CPU for processing, forming the first step in the computing cycle.
@@ -250,20 +263,22 @@ Together, these units enable the computer to perform complex tasks efficiently, 
 ---
 
 ### Q9. What is the difference between algorithm, pseudocode, and flow chart? Draw a flow chart to check if a number is prime or not. (15 Marks)
-An algorithm, pseudocode, and flow chart are essential tools in problem-solving and programming, each serving a distinct purpose. An **algorithm** is a step-by-step procedure or set of rules to solve a problem, written in a logical sequence using natural language or basic constructs. It focuses on the logic and flow without syntax, acting as a foundation for coding. **Pseudocode**, on the other hand, is a more structured, human-readable representation of an algorithm, blending natural language with programming-like syntax (e.g., loops, conditionals) but not executable. It bridges the gap between algorithm and code. A **flow chart** is a graphical representation using symbols like ovals (start/end), rectangles (process), diamonds (decisions), and arrows (flow), visually depicting the algorithm’s logic for better understanding.
+* An algorithm, pseudocode, and flow chart are essential tools in problem-solving and programming, each serving a distinct purpose. An **algorithm** is a step-by-step procedure or set of rules to solve a problem, written in a logical sequence using natural language or basic constructs. It focuses on the logic and flow without syntax, acting as a foundation for coding. **Pseudocode**, on the other hand, is a more structured, human-readable representation of an algorithm, blending natural language with programming-like syntax (e.g., loops, conditionals) but not executable. It bridges the gap between algorithm and code. A **flow chart** is a graphical representation using symbols like ovals (start/end), rectangles (process), diamonds (decisions), and arrows (flow), visually depicting the algorithm’s logic for better understanding.
 
 **Differences:**
 - **Purpose**: An algorithm defines the solution logic, pseudocode refines it into a code-like format, and a flow chart provides a visual overview.
 - **Format**: Algorithms are text-based with steps, pseudocode uses semi-structured text, and flow charts use diagrams.
 - **Usage**: Algorithms are abstract, pseudocode is a planning tool, and flow charts aid in debugging or explanation.
 
-diagram link  : https://imgs.search.brave.com/0Hl8KC7img-GUi-FbCy3rV_u0Yqs8TospQXrvM9MNYw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNyZXNvdXJjZS5j/b20vdzNyX2ltYWdl/cy9jLWZvci1sb29w/LWV4ZXJjaXNlLTMy/LnBuZw
+* diagram link  : https://imgs.search.brave.com/0Hl8KC7img-GUi-FbCy3rV_u0Yqs8TospQXrvM9MNYw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNyZXNvdXJjZS5j/b20vdzNyX2ltYWdl/cy9jLWZvci1sb29w/LWV4ZXJjaXNlLTMy/LnBuZw
 
 ### Q11. What is a pointer? Write a C program to read a set of strings and sort them in alphabetical order. Explain declaration and initialization of array of strings. (15 Marks)
 - A pointer in C is a variable that stores the memory address of another variable, enabling direct memory access and manipulation. It’s declared with an asterisk (*), e.g., int *ptr, and is powerful for dynamic memory allocation, passing large data efficiently, and array handling. Dereferencing (*ptr) accesses the value at that address.
 Program to Read and Sort Strings Alphabetically:
 c
-#include <stdio.h>
+
+``` 
+#include <stdio.h>
 #include <string.h>
 int main() {
     int n, i, j;
@@ -285,17 +300,18 @@ int main() {
     for (i = 0; i < n; i++) printf("%s\n", str[i]);
     return 0;
 }
+```
 
 - This program uses strcmp to compare strings and swaps them using a temporary array, sorting them alphabetically.
 - Declaration and Initialization of Array of Strings:
 An array of strings is a 2D array where each element is a string (array of characters). It’s declared as char str[row][col], where row is the number of strings and col is the maximum length of each string (plus 1 for the null terminator).
 
-Declaration: char str[5][20]; creates an array for 5 strings, each up to 19 characters.
+Declaration: `char str[5][20]`; creates an array for 5 strings, each up to 19 characters.
 
 Initialization: 
-Direct: char str[3][10] = {"apple", "banana", "cherry"}; (remaining elements auto-filled with null).
+Direct: `char str[3][10] = {"apple", "banana", "cherry"};` (remaining elements auto-filled with null).
 
-Partial: char str[3][10] = {"apple"}; (others set to empty strings).
+Partial: `char str[3][10] = {"apple"};` (others set to empty strings).
 
 Runtime: Use loops with scanf to input values, as shown in the program.
 This structure is useful for handling multiple strings, with memory allocated contiguously for efficient access.
