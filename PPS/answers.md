@@ -90,7 +90,7 @@ int main() {
     a = a - b;  // Step 3: Subtract new b from sum to get new a
     printf("After swapping: a = %d, b = %d\n", a, b);
     return 0;
-}
+}```
 
 ### Q3. Define algorithm and Pseudocode. Write algorithm and pseudocode for finding factorial of a number.
 An algorithm is a step-by-step procedure or set of rules to solve a problem or complete a task, expressed in a logical sequence. It acts as a blueprint for programming, ensuring clarity before coding. Pseudocode, on the other hand, is a high-level, human-readable description of an algorithm using a mix of natural language and programming constructs, without strict syntax rules. It helps plan the logic and is later translated into actual code.
@@ -135,7 +135,7 @@ if (a > b) printf("a is greater"); else printf("b is greater"); - If-else.
 switch (day) { case 1: printf("Monday"); break; } - Switch.
 Program to Generate Prime Numbers:
 c
-#include <stdio.h>
+``` #include <stdio.h>
 int main() {
     int n, i, j, isPrime;
     printf("Enter a number n: ");
@@ -152,7 +152,7 @@ int main() {
         if (isPrime) printf("%d ", i);
     }
     return 0;
-}
+}```
 
 
 ### Q5. Define an array. How to initialize one-dimensional array? Explain with suitable examples. Write a C program to sort the given array elements in Ascending order.
@@ -165,7 +165,7 @@ Partial initialization: int arr[5] = {1, 2}; (remaining elements set to 0).
 At runtime: scanf("%d", &arr[i]); to input values.
 Program to Sort Array in Ascending Order:
 c
-#include <stdio.h>
+``` #include <stdio.h>
 int main() {
     int arr[100], n, i, j, temp;
     printf("Enter the size of array: ");
@@ -182,14 +182,14 @@ int main() {
     printf("Sorted array: ");
     for (i = 0; i < n; i++) printf("%d ", arr[i]);
     return 0;
-}
+}``` 
 
 
 ### Q6. What are the features of pointers? Write a C program to print address of a variable.
 - Pointers are variables that store memory addresses of other variables, enabling direct memory manipulation. Key features include: they allow dynamic memory allocation, provide efficiency in passing large data structures, enable array handling, and support pointer arithmetic for traversing memory. They require careful use to avoid issues like dangling pointers.
 Program to Print Address of a Variable:
 c
-#include <stdio.h>
+``` #include <stdio.h>
 int main() {
     int x = 10;
     int *ptr = &x;
@@ -197,7 +197,7 @@ int main() {
     printf("Address of x: %p\n", (void*)ptr);
     printf("Value via pointer: %d\n", *ptr);
     return 0;
-}
+}``` 
 
 This program declares an integer x, a pointer ptr to its address, and prints both the value and address using %p with a type cast to void*. It showcases pointer dereferencing and address access.
 
@@ -214,7 +214,7 @@ Example: struct Student { int id; char name[20]; };.
 Structures can be copied by assignment, copying all members. Comparison requires member-wise comparison since direct == isn’t allowed.
 Example Program:
 c
-#include <stdio.h>
+``` #include <stdio.h>
 struct Student {
     int id;
     char name[20];
@@ -229,7 +229,7 @@ int main() {
     int equal = (s1.id == s3.id && strcmp(s1.name, s3.name) == 0);
     printf("s1 and s3 equal: %d\n", equal);
     return 0;
-}
+}```
 
 
 ## Part C Answers
@@ -257,13 +257,13 @@ An algorithm, pseudocode, and flow chart are essential tools in problem-solving 
 - **Format**: Algorithms are text-based with steps, pseudocode uses semi-structured text, and flow charts use diagrams.
 - **Usage**: Algorithms are abstract, pseudocode is a planning tool, and flow charts aid in debugging or explanation.
 
-diagram link  : https://imgs.search.brave.com/0Hl8KC7img-GUi-FbCy3rV_u0Yqs8TospQXrvM9MNYw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNyZXNvdXJjZS5j/b20vdzNyX2ltYWdl/cy9jLWZvci1sb29w/LWV4ZXJjaXNlLTMy/LnBuZw
+``` diagram link  : https://imgs.search.brave.com/0Hl8KC7img-GUi-FbCy3rV_u0Yqs8TospQXrvM9MNYw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNyZXNvdXJjZS5j/b20vdzNyX2ltYWdl/cy9jLWZvci1sb29w/LWV4ZXJjaXNlLTMy/LnBuZw ```
 
 ### Q11. What is a pointer? Write a C program to read a set of strings and sort them in alphabetical order. Explain declaration and initialization of array of strings. (15 Marks)
 - A pointer in C is a variable that stores the memory address of another variable, enabling direct memory access and manipulation. It’s declared with an asterisk (*), e.g., int *ptr, and is powerful for dynamic memory allocation, passing large data efficiently, and array handling. Dereferencing (*ptr) accesses the value at that address.
 Program to Read and Sort Strings Alphabetically:
 c
-#include <stdio.h>
+``` #include <stdio.h>
 #include <string.h>
 int main() {
     int n, i, j;
@@ -284,7 +284,7 @@ int main() {
     printf("Sorted strings:\n");
     for (i = 0; i < n; i++) printf("%s\n", str[i]);
     return 0;
-}
+}```
 
 - This program uses strcmp to compare strings and swaps them using a temporary array, sorting them alphabetically.
 - Declaration and Initialization of Array of Strings:
