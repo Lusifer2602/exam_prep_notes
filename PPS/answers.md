@@ -90,7 +90,7 @@ int main() {
     a = a - b;  // Step 3: Subtract new b from sum to get new a
     printf("After swapping: a = %d, b = %d\n", a, b);
     return 0;
-}```
+} ```
 
 ### Q3. Define algorithm and Pseudocode. Write algorithm and pseudocode for finding factorial of a number.
 An algorithm is a step-by-step procedure or set of rules to solve a problem or complete a task, expressed in a logical sequence. It acts as a blueprint for programming, ensuring clarity before coding. Pseudocode, on the other hand, is a high-level, human-readable description of an algorithm using a mix of natural language and programming constructs, without strict syntax rules. It helps plan the logic and is later translated into actual code.
