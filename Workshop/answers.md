@@ -213,7 +213,6 @@ Answer each in 1–2 sentences or bullet points. (~15 marks total)
   - **Distortion:** Warping due to uneven heating/cooling.  
   - **Spatter:** Droplets around weld (more of a nuisance).  
 - **Diagrams (0.5m):**  
-  - Sketch small cross-sectional diagrams for 2–3 key defects: e.g., porosity, incomplete penetration, undercut. Label clearly.  
 - **Prevention measures (0.5m):**  
   - Proper joint preparation, correct parameters (current, voltage, speed), clean surfaces, appropriate filler and shielding, preheat/post-heat if needed, proper technique.  
 - **Conclusion (0.5m):**  
@@ -294,7 +293,6 @@ Answer each in 1–2 sentences or bullet points. (~15 marks total)
 
 ## Part C: Detailed Answers (Attempt any 2 out of 4; 15 marks each)
 
-Practice writing these with neat labelled sketches. Below are outlines; when answering, draw clear sketches of furnace, sheet metal operations, lathe parts, welding diagrams, etc.
 
 ### Q.10 Explain Cupola furnace with neat sketch.  
 **(15 marks)**  
@@ -332,7 +330,7 @@ Practice writing these with neat labelled sketches. Below are outlines; when ans
   - Emphasize role in foundry operations; modern alternatives include induction furnaces for smaller, cleaner melting.
 
 ### Q.11 Discuss various sheet metal operations with the help of sketches.  
-**(15 marks)**  
+**(15 marks)**  (ispe saare diagrams hain agar ek baar mein sab dekhna ho : https://www.theengineerspost.com/sheet-metal-operations/ )
 - **Introduction (2m):**  
   - Sheet metal operations involve cutting, forming, bending, and joining thin metal sheets to produce components (e.g., enclosures, panels).  
   - Common in automotive, aerospace, appliance manufacturing.  
@@ -341,8 +339,7 @@ Practice writing these with neat labelled sketches. Below are outlines; when ans
   - **Forming operations:** Bending, drawing, stretching, deep drawing, coining.  
   - **Joining operations (sheet):** Riveting, spot welding, seam welding (but primary focus often on forming).  
   - **Finishing operations:** Trimming, hemming, lancing, embossing, beading.  
-- **Sketches & Explanation (main body) (8m):  
-  For each operation, draw a simple diagram showing punch/die configuration, sheet location, and final shape. Label clearly.  
+
   1. **Shearing / Blanking & Piercing:**  
      - **Blanking:** Punch removes a blank piece from sheet. 
      -Sketch: https://imgs.search.brave.com/3TAlpkZka19qo8s2J1z5YyeuDFu1DtarrgQ1rFc_GzA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c21sZWFzZS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTkv/MDIvQmxhbmtpbmct/UHJvY2Vzcy5qcGc
@@ -382,7 +379,7 @@ Practice writing these with neat labelled sketches. Below are outlines; when ans
 **(15 marks)**  
 - **Introduction / Principle (2m):**  
   - Lathe: machine tool in which a workpiece is rotated about its axis while a stationary cutting tool removes material, producing cylindrical parts. Principle: relative motion between rotating work and stationary tool causes material removal.  
-- **Sketch (labelled diagram of a lathe) (draw a side elevation) (approx. 3m):**  
+- **Sketch (labelled diagram of a lathe) (draw a side elevation) (approx. 3m): https://imgs.search.brave.com/hEfV2hVI1Kl7hNgIL4jjqMiNVZ6VpIWipJPw8bFi20Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vbWVjaGFu/aWNhbG5vdGVzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MC8wMy9saW5lX2Rp/Z3JhbV9vZl9sYXRo/ZV9tYWNoaW5lX3Bh/cnRzLmpwZz9zdHJp/cD1hbGw**  
   Key parts to label:  
   - **Bed:** Base of lathe, supports all components, ensures alignment.  
   - **Headstock:** Contains spindle (drives the workpiece), gearbox for speed selection, chuck or faceplate mounted on spindle.  
@@ -427,7 +424,7 @@ Practice writing these with neat labelled sketches. Below are outlines; when ans
   - **Arc Welding Principle:** Uses an electric arc between an electrode and the base metal to melt and fuse materials. The arc generates high heat (3000–20,000°C). Ionization of gas in the gap sustains the arc. Molten pool created; on cooling, forms weld joint. Often uses shielding (gas or flux) to protect molten metal from atmospheric contamination.  
   - **Types of arc welding:** SMAW (stick), GMAW (MIG/MAG), GTAW (TIG), SAW (submerged arc), etc.  
 - **Sketch for Principle (brief):**  
-  - Simple diagram: electrode tip, arc region, molten weld pool, base metal; indicate power source.  
+- https://imgs.search.brave.com/wbHWMeWXkNrLFjg-Mn5T0wDKfa-6mXCYR3tYvU2UKu0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucHJpc21pYy5p/by94b21ldHJ5LW1h/cmtldGluZy9aczRF/Q1VhRjBUY0dKYjZM/X0FyY1dlbGRpbmdJ/bWFnZS5wbmc_YXV0/bz1mb3JtYXQsY29t/cHJlc3Mmdz04MDAm/aD04MDAmZml0PW1h/eA
 - **MIG Welding (Metal Inert Gas) / GMAW (3–4m):**  
   - **Definition / Principle:** MIG welding is Gas Metal Arc Welding (GMAW) where a continuous consumable wire electrode is fed from a spool through the welding gun; an inert shielding gas (e.g., Argon or Argon + CO₂ mix depending on metal) flows around the wire to protect the arc and molten metal. The arc forms between wire tip and workpiece; molten metal transfers from wire to the weld pool.  
   - **Equipment and Components (sketch):**  
@@ -436,7 +433,7 @@ Practice writing these with neat labelled sketches. Below are outlines; when ans
     - **Welding gun / torch:** Delivers wire and shielding gas.  
     - **Shielding gas supply:** Cylinder of inert or semi-inert gas (Argon, Argon+CO₂).  
     - **Ground clamp:** Completes circuit.  
-    - Sketch: show wire spool, feed motor, gun, nozzle, gas flow, arc, weld pool.  
+    - Sketch: https://imgs.search.brave.com/hIcdHSEWEyHICFtk7bdn0_CsigPd0lkQVGgPmo8y0_g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmFj/dG9yeS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjIvMDQv/TUlHLXdlbGRpbmcu/anBn
   - **Working parameters:**  
     - **Voltage and current:** CV machine maintains voltage; current depends on wire feed speed.  
     - **Wire type and diameter:** Selected per base metal; e.g., mild steel wire for steel welding; aluminium wire for aluminium (requires different gas).  
