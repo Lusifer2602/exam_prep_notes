@@ -301,14 +301,9 @@ Practice writing these with neat labelled sketches. Below are outlines; when ans
 - **Introduction / Purpose (2–3m):**  
   - Cupola furnace: vertical cylindrical furnace used for melting cast iron and some bronzes/brasses in foundries. Continuous or batch melting.  
   - Advantages: high melting rate, fuel-efficient for large batches, simple operation.  
-- **Sketch (draw a vertical section) (label clearly):**  
-  - Cylindrical shell lined with refractory.  
-  - Charging door for metal, coke, flux.  
-  - Tapping spout at bottom.  
-  - Tuyeres arranged around the lower shell for air blast.  
-  - Blast supply: blower/air pipe to tuyeres.  
-  - Bed of coke at the base on which charge rests; slag-drawing arrangement.  
-- **Construction and Components (4–5m):**  
+  **Link to Sketch: https://rohitmehta355.wordpress.com/wp-content/uploads/2014/12/01-cupola-furnace-cupola-furnace-construction-cupola-furnace-operation-cupola-furnace-working_th.jpg
+
+ **Construction and Components (4–5m):**  
   - **Shell/Body:** Steel shell, lined internally with refractory bricks (heat-resistant lining).  
   - **Charging Platform / Charging Hole:** For adding layers of coke, metal (pig iron, scrap), flux.  
   - **Tuyeres:** Equally spaced near bottom; air blast provides combustion of coke.  
@@ -349,26 +344,28 @@ Practice writing these with neat labelled sketches. Below are outlines; when ans
 - **Sketches & Explanation (main body) (8m):  
   For each operation, draw a simple diagram showing punch/die configuration, sheet location, and final shape. Label clearly.  
   1. **Shearing / Blanking & Piercing:**  
-     - **Blanking:** Punch removes a blank piece from sheet. Sketch: punch descending into die, blank drops out.  
-     - **Piercing (Punching):** Punch removes a hole from sheet; scrap (slug) removed. Sketch: punch through sheet into die, hole left.  
+     - **Blanking:** Punch removes a blank piece from sheet. 
+     -Sketch: https://imgs.search.brave.com/3TAlpkZka19qo8s2J1z5YyeuDFu1DtarrgQ1rFc_GzA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c21sZWFzZS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTkv/MDIvQmxhbmtpbmct/UHJvY2Vzcy5qcGc
+     - **Piercing (Punching):** Punch removes a hole from sheet; scrap (slug) removed. 
      - Note: Clearance between punch and die, importance of die clearance for quality edge.  
   2. **Bending / V-bending:**  
-     - Sketch: sheet over V-die, punch presses to bend at desired angle. Label bend line, punch, die.  
+     - Sketch:   https://imgs.search.brave.com/IfjcKwN69uQ6OtnCcu7AGmXMzpyDE_QLuWY8cZdQuzk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlZW5naW5lZXJz/cG9zdC5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjAvMDQv/di1iZW5kaW5nLW1p/bi0xLmpwZw
      - Discuss spring-back and need for over-bending.  
   3. **Drawing / Deep drawing:**  
      - **Shallow drawing:** Drawing a shallow cup shape. Sketch: blank held by blank-holder or draw ring, punch pushes sheet into die cavity.  
      - **Deep drawing:** Depth > diameter; multiple drawing stages possible. Discuss importance of blank-holder force, lubrication to avoid wrinkling or tearing.  
   4. **Stretching:**  
-     - Sketch: sheet clamped around edges, punch stretches center to form dome shape.  
      - Used for aerodynamic panels, dish shapes.  
   5. **Coining:**  
-     - High-pressure stamping to imprint detail. Sketch: punch/die with pattern, sheet pressed to reproduce design.  
+     - High-pressure stamping to imprint detail. 
   6. **Hemming:**  
-     - Folding over edge of sheet onto itself for stiffness/safety. Sketch: two-stage bending.  
+     - Folding over edge of sheet onto itself for stiffness/safety. 
+     - Sketch: https://fractory.com/wp-content/uploads/2022/11/hems.png
   7. **Lancing & Slitting:**  
-     - Lancing: partial cutting and bending of tab. Slitting: cutting narrow slits. Sketch: blade cutting partial depth.  
+     - Lancing: partial cutting and bending of tab. Slitting: cutting narrow slits. 
+     - Sketch: https://proleantech.com/wp-content/uploads/2023/06/Guide-to-Sheet-Metal-Slitting-Process.png
   8. **Embossing / Beading:**  
-     - Embossing: creating raised or recessed shapes for strength or aesthetics. Sketch: punch/die shapes.  
+     - Embossing: creating raised or recessed shapes for strength or aesthetics. 
      - Beading: adding stiffening ridge.  
 - **Tooling / Presses (brief mention) (1m):**  
   - Press types: mechanical press, hydraulic press; progressive dies for high-volume stamping combining blanking, bending, piercing in sequence.  
@@ -457,41 +454,5 @@ Practice writing these with neat labelled sketches. Below are outlines; when ans
     - Protect against UV radiation, fumes (ventilation), wear PPE, avoid gas leaks.  
 - **Conclusion (1m):**  
   - MIG welding is a widely used arc welding variant offering high productivity and good quality welds. Suitable for various metals when proper parameters and shielding gases are selected. Emphasize importance of neat sketch showing wire feed, shielding gas, arc, weld pool.
-
----
-
-## How to Practice
-
-1. **Write concise definitions** for Part A; practice phrasing in 1–2 lines.  
-2. **Draw neat sketches** on plain paper:  
-   - Cupola furnace section.  
-   - Lathe parts side view.  
-   - Sheet metal tool/punch-die setups.  
-   - Welding setups (MIG torch with wire feed and gas).  
-   - Defect cross-sections (e.g., porosity, incomplete penetration).  
-3. **Time yourself**: For Part A, ~15 minutes; Part B: ~5–7 minutes per question; Part C: ~20–25 minutes per question including sketches.  
-4. **Check key points**: Ensure you mention safety, advantages/disadvantages, applications where relevant.  
-5. **Use standard terminology**: e.g., in welding mention “shielding gas,” “arc length,” in casting mention “flux,” “slag,” in forming mention “blank-holder,” “die clearance.”  
-6. **Customize examples**: If your course emphasized particular machines or local practices (e.g., specific furnaces, local foundry practices), integrate those details.
-
----
-
-**Example Brief Answer Formats**
-
-- **(a) Manufacturing process:**  
-  “A manufacturing process is a set of sequential operations that transform raw materials into finished products with desired shape and properties, e.g., casting, machining, forming.”  
-
-- **(b) Use of Cupola Furnace:**  
-  “Cupola furnace is used to melt cast iron in foundries; it uses coke as fuel and air blast through tuyeres to achieve high temperatures for melting.”  
-
-- **(d) Diff. Conventional vs. CNC Lathe:**  
-  “Conventional lathe is manually operated, dependent on operator skill for speed/feed settings, suited for small batches. CNC lathe uses computer control to follow programmed tool paths, offering high precision, repeatability, and efficient large-batch production.”  
-
-- **Q.2 (Plant Layout)** – Sample outline:  
-  1. Definition: systematic arrangement of facilities to optimize workflow.  
-  2. Types: process, product, cellular, fixed-position, with brief characteristics.  
-  3. Factors: product type, volume, process sequence, material handling, space.  
-  4. Advantages: reduced handling time, increased safety, efficient supervision.  
-  5. Applications: automobile assembly line (product), job-shop (process), electronics cell manufacturing (cellular), shipyard (fixed).  
 
 ---
